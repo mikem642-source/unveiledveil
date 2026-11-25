@@ -171,6 +171,7 @@ a { color: var(--ember-dark); }
 }
 .book-cover { border-radius: 4px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
 .subtitle { font-family: var(--serif); font-size: 1.3rem; font-style: italic; color: var(--ink-soft); margin-top: -0.4em; }
+.buy-note { margin-top: 1rem; font-size: 0.95rem; color: var(--ink-soft); }
 .book-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.5rem; }
 
 .tag {
@@ -225,7 +226,7 @@ a { color: var(--ember-dark); }
 /* ===== Phones & tablets ===== */
 @media (max-width: 820px) {
   .hero { padding: 3rem 1.2rem 2.5rem; }
-  .hero-image { border-radius: 10px; aspect-ratio: 4 / 3; background-position: 62% center, center; }
+  .hero-image { border-radius: 10px; aspect-ratio: 4 / 3; background-position: 30% center, center; }
   .book-feature { grid-template-columns: 1fr; padding: 1.8rem; }
   .book-feature .book-cover { max-width: 220px; margin: 0 auto; }
   .book-grid, .post-grid, .service-grid { grid-template-columns: 1fr; }
