@@ -215,6 +215,8 @@ a { color: var(--ember-dark); }
 .subscribe-form input::placeholder { color: #9d948a; }
 .subscribe .btn-primary { background: var(--ember); }
 
+.contact-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: center; }
+
 /* ===== Footer ===== */
 .site-footer {
   background: #121110; color: #a89f94;
